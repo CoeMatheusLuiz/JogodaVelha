@@ -1,0 +1,99 @@
+.corpo{
+
+    background: url("../images/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1{
+
+    color: Gold;
+    text-shadow: 2px 2px orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/*--- CORPO DO JOGO! ---*/
+.stage{
+
+    text-align: center;
+
+}
+
+.square{
+
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border: 1px solid gold;
+    display: inline-block;
+
+}
+
+/*--- CRIAÇÃO DOS JOGADORES! ---*/
+
+.Naruto{
+    position: relative;
+}
+.Naruto::after{
+    position: absolute;
+    border-radius: 3px;
+    content: "";
+    background: url("../images/naruto1.png") center center no-repeat;
+    font-size: 50px;
+    line-height: 100px;
+    height: 100px;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.Pain{
+    position: relative;
+}
+.Pain::after{
+    position: absolute;
+    border-radius: 3px;
+    content: "";
+    background: url("../images/pain1.jpg") center center no-repeat;
+    font-size: 50px;
+    line-height: 100px;
+    height: 100px;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* -- BOTÃO -- */
+
+.button{
+
+    margin-top: 15px;
+    text-decoration: none;
+    color: gold;
+    background: orangered;
+    border-color: gold;		
+    width: 260px;  
+    height: 60px;	
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    box-shadow: 3px 3px black;
+
+}
+
+.button:hover{
+
+    color: orangered;
+    background: gold;
+    border-color: orangered;
+
+}
